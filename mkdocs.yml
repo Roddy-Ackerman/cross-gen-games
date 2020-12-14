@@ -1,1 +1,7 @@
-site_name: My Docs
+site_name: Cross Gen Games
+site_url: cross-gen-games
+repo_url: https://github.com/Roddy-Ackerman/cross-gen-games
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
