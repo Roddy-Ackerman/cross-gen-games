@@ -309,13 +309,20 @@ li {
 }
 
 @media screen and (max-width: 361px) {
+	.title{
+		font-size: 14px;
+	}
+
+	p{
+		font-size: 10px;
+	}
 	.st-container > a {
 		font-size: 10px;
 	}
 	
 	.st-deco{
-		width: 100px;
-		height: 100px;
+		width: 120px;
+		height: 120px;
 		margin-left: -60px;
 	}
 	
