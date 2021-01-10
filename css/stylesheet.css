@@ -314,13 +314,13 @@ li {
 	}
 	
 	.st-deco{
-		width: 120px;
-		height: 120px;
+		width: 100px;
+		height: 100px;
 		margin-left: -60px;
 	}
 	
 	[data-icon]:after {
-		font-size: 60px;
+		font-size: 40px;
 		transform: rotate(-45deg) translateY(15%);
 	}
 }
