@@ -1,7 +1,0 @@
-site_name: Cross Gen Games
-repo_url: https://github.com/Roddy-Ackerman/cross-gen-games
-
-nav:
-  - Home: index.md
-  - About: about.md
-theme: readthedocs
