@@ -24,32 +24,6 @@ body{
     justify-content: center;
     margin:auto;
 }
-.games-grid{
-    display: grid;
-    margin:auto;
-    justify-content: center;
-    grid-gap:20px;
-    grid-template-columns: 1fr 1fr;
-    padding:10px;
-    background-image:linear-gradient(rgba(150,40,0,.75),rgba(0,20,150,.75))
-}
-.game{
-    display:flex;
-    margin:auto;
-    justify-content: center;
-    animation:move-down 4s linear infinite alternate;
-}
-h1{
-    text-align: center;
-    margin:auto;
-    padding:50px;
-    justify-content: center;
-    font-size:42px;
-    animation-name:move-down;
-    animation-duration:4s;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-}
 p{
     width:80%;
     text-align:center;
@@ -75,6 +49,7 @@ li {
 	height: 100%;
 	top: 0;
 	left: 0;
+	z-index: -1;
 }
 
 .st-container > input,
