@@ -286,17 +286,6 @@ li {
 	color: rgba(255,255,255,0.8);
 }
 @media screen and (max-width: 601px) {
-	.title{
-		font-size: 14px;
-	}
-
-	p{
-		font-size: 10px;
-	}
-	.st-panel h2 {
-		display:none;
-		font-size: 28px;
-	}
 	
 	.st-panel iframe {
 		width: 90vw;
@@ -309,7 +298,7 @@ li {
 	}
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 414px) {
 	.title{
 		font-size: 14px;
 	}
