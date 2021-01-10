@@ -322,6 +322,9 @@ li {
 	.title{
 		font-size: 14px;
 	}
+	.header{
+		margin-bottom: 2vh;
+	}
 
 	p{
 		font-size: 10px;
