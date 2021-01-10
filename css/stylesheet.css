@@ -286,16 +286,19 @@ li {
 	color: rgba(255,255,255,0.8);
 }
 @media screen and (max-width: 736px) {
+
 	.title{
-		font-size: 14px;
+		font-size: 14vw;
 	}
 
 	p{
 		font-size: 10px;
 	}
+
 	.st-container > a {
 		font-size: 10px;
 	}
+
 	.st-panel h2 {
 		display:none;
 		font-size: 28px;
@@ -314,7 +317,7 @@ li {
 
 @media screen and (max-width: 414px) {
 	.title{
-		font-size: 14px;
+		font-size: 14vw;
 	}
 
 	p{
