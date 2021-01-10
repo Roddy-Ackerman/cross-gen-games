@@ -320,6 +320,10 @@ li {
 	.st-container > a {
 		font-size: 10px;
 	}
+	.st-panel h2 {
+		display:none;
+		font-size: 28px;
+	}
 	
 	.st-deco{
 		width: 120px;
