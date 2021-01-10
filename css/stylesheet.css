@@ -285,7 +285,7 @@ li {
 .st-color iframe {
 	color: rgba(255,255,255,0.8);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
 	.header{
 		margin-bottom: 2vh;
 	}
@@ -319,7 +319,7 @@ li {
 	}
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
 	.title{
 		font-size: 14px;
 	}
