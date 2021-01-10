@@ -275,6 +275,13 @@ li {
 	color: rgba(255,255,255,0.8);
 }
 @media screen and (max-width: 520px) {
+	.title{
+		font-size: 20px;
+	}
+
+	p{
+		font-size: 14px;
+	}
 	.st-panel h2 {
 		font-size: 42px;
 	}
