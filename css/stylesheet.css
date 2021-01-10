@@ -2,12 +2,9 @@
 @import "http://allfont.net/allfont.css?fonts=agency-fb-bold";
 
 body{
-    overflow:hidden;
-}
-
-.default-container{
+	overflow:hidden;
 	background-color: rgb(94, 141, 212);
-	height:100vh;
+
 }
 
 .header{
@@ -20,7 +17,7 @@ body{
 .title{
     display:flex;
     justify-content: center;
-    margin:auto;
+    margin-right:50vw;
     font-size:32px;
     font-family: 'Agency FB Bold', arial;
 }
@@ -30,11 +27,23 @@ h1{
 	justify-content: center;
 }
 
-.nav-bar{
+.navbar{
     display:flex;
     justify-content: center;
     margin:auto;
 }
+.navbar ul li a {
+	color: white;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+  }
+
+  .navbar ul li a:hover, .navbar ul li a:focus {
+	border-bottom: 2px solid white;
+  }
 p{
     width:80%;
     text-align:center;
@@ -317,5 +326,11 @@ li {
 	[data-icon]:after {
 		font-size: 32px;
 		transform: rotate(-45deg) translateY(15%);
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.ham{
+		display:none;
 	}
 }
