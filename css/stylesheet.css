@@ -326,6 +326,8 @@ li {
 	.header{
 		margin-bottom: 2vh;
 		margin-right: 0px;
+		display:flex;
+		align-items: flex-end;
 	}
 
 	p{
