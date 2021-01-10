@@ -294,6 +294,7 @@ li {
 		font-size: 10px;
 	}
 	.st-panel h2 {
+		display:none;
 		font-size: 28px;
 	}
 	
@@ -321,8 +322,8 @@ li {
 	}
 	
 	.st-deco{
-		width: 100px;
-		height: 100px;
+		width: 120px;
+		height: 120px;
 		margin-left: -60px;
 	}
 	
